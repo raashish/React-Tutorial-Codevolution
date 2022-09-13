@@ -4,6 +4,7 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/14/EventBind';
 import ParentComponent from './components/15/ParentComponent';
+import NameList from './components/17/NameList';
 
 export default function App() {
   return (
@@ -13,7 +14,8 @@ export default function App() {
       {/* <FunctionClick />
       <ClassClick /> */}
       {/* <EventBind /> */}
-      <ParentComponent />
+      {/* <ParentComponent /> */}
+      <NameList />
     </div>
   );
 }
