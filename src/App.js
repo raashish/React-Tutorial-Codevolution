@@ -5,6 +5,7 @@ import ClassClick from './components/ClassClick';
 import EventBind from './components/14/EventBind';
 import ParentComponent from './components/15/ParentComponent';
 import NameList from './components/17/NameList';
+import Form from './components/21/Form';
 
 export default function App() {
   return (
@@ -15,7 +16,8 @@ export default function App() {
       <ClassClick /> */}
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
-      <NameList />
+      {/* <NameList /> */}
+      <Form />
     </div>
   );
 }
