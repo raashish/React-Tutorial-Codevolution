@@ -6,6 +6,7 @@ import EventBind from './components/14/EventBind';
 import ParentComponent from './components/15/ParentComponent';
 import NameList from './components/17/NameList';
 import Form from './components/21/Form';
+import LifeCycleA from './components/23/LifeCycleA';
 
 export default function App() {
   return (
@@ -17,7 +18,8 @@ export default function App() {
       {/* <EventBind /> */}
       {/* <ParentComponent /> */}
       {/* <NameList /> */}
-      <Form />
+      {/* <Form /> */}
+      <LifeCycleA />
     </div>
   );
 }
