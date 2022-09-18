@@ -8,6 +8,7 @@ import NameList from './components/17/NameList';
 import Form from './components/21/Form';
 import LifeCycleA from './components/23/LifeCycleA';
 import ParentComp from './components/27/ParentComp';
+import RefsDemo from './components/28/RefsDemo';
 
 export default function App() {
   return (
@@ -21,7 +22,8 @@ export default function App() {
       {/* <NameList /> */}
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
-      <ParentComp />
+      {/* <ParentComp /> */}
+      <RefsDemo />
     </div>
   );
 }
