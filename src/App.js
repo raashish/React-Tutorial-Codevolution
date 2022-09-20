@@ -9,6 +9,7 @@ import Form from './components/21/Form';
 import LifeCycleA from './components/23/LifeCycleA';
 import ParentComp from './components/27/ParentComp';
 import RefsDemo from './components/28/RefsDemo';
+import FRParentInput from './components/30/FRParentInput';
 
 export default function App() {
   return (
@@ -23,7 +24,8 @@ export default function App() {
       {/* <Form /> */}
       {/* <LifeCycleA /> */}
       {/* <ParentComp /> */}
-      <RefsDemo />
+      {/* <RefsDemo /> */}
+      <FRParentInput />
     </div>
   );
 }
